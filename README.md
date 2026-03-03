@@ -17,7 +17,7 @@
 
 ---
 
-This repo deploys [ParadeDB](https://paradedb.com) on [Render](https://render.com) with one click using a [Render Blueprint](https://render.com/docs/blueprint-spec).
+This repository deploys [ParadeDB](https://paradedb.com) on [Render](https://render.com) with one click using a [Render Blueprint](https://render.com/docs/blueprint-spec).
 
 ## What You Get
 
