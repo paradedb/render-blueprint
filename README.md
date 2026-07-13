@@ -1,10 +1,17 @@
 <h1 align="center">
-  <a href="https://paradedb.com"><img src="https://raw.githubusercontent.com/paradedb/paradedb/main/docs/logo/readme.svg" alt="ParadeDB"></a>
-<br>
+  <a href="https://paradedb.com">
+    <picture align=center>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/paradedb/paradedb/raw/main/docs/logo/paradedb-logo-dark-large.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/paradedb/paradedb/raw/main/docs/logo/paradedb-logo-light-large.svg">
+      <img alt="The ParadeDB logo." src="https://github.com/paradedb/paradedb/raw/main/docs/logo/paradedb-logo-light-large.svg">
+    </picture>
+  </a>
+  <br>
 </h1>
 
 <p align="center">
-  <b>Postgres for Search and Analytics</b>
+  <b>Search without a second system.</b><br/>
+  One Postgres for your application data, full-text search, vector retrieval, and aggregations.
 </p>
 
 <h3 align="center">
@@ -108,7 +115,7 @@ You can add additional Postgres environment variables (e.g. `POSTGRES_INITDB_ARG
 
 ## What is ParadeDB?
 
-[ParadeDB](https://paradedb.com) is an Elasticsearch alternative built on Postgres. It delivers Elastic-quality full-text, hybrid, and faceted search — all in pure SQL, with no separate search infrastructure to manage.
+[ParadeDB](https://paradedb.com) adds Elastic-quality full-text search, vector retrieval, and aggregations to Postgres with the `pg_search` extension. Your application data and your search engine live in one database, with no second system to deploy and nothing to sync.
 
 - **BM25 full-text search** with 12+ tokenizers across 20+ languages
 - **Hybrid search** combining BM25 and vector similarity
