@@ -122,7 +122,6 @@ You can add additional Postgres environment variables (e.g. `POSTGRES_INITDB_ARG
 - Hybrid search combining BM25 and vector similarity
 - Filters and facets to narrow search results
 - Aggregations and joins over your application data
-- Zero ETL with your primary Postgres or replication from managed databases (RDS, Supabase, Neon, etc.)
 
 Learn more at [paradedb.com](https://www.paradedb.com/).
 
