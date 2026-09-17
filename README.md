@@ -120,7 +120,7 @@ You can add additional Postgres environment variables (e.g. `POSTGRES_INITDB_ARG
 - BM25 full-text search with multilingual tokenization, typo tolerance, and highlighting
 - Vector search for similarity search over embeddings
 - Hybrid search combining BM25 and vector similarity
-- Filters and facets to narrow search results
+- Filters and facets to narrow results
 - Aggregations and joins over your application data
 
 Learn more at [paradedb.com](https://www.paradedb.com/).
