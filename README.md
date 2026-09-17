@@ -10,16 +10,16 @@
 </h1>
 
 <p align="center">
-  <b>Search without a second system.</b><br/>
+  <b>Just use Postgres.</b><br/>
   One Postgres for your application data, full-text search, vector retrieval, and aggregations.
 </p>
 
 <h3 align="center">
   <a href="https://paradedb.com">Website</a> &bull;
-  <a href="https://paradedb.com/docs">Docs</a> &bull;
+  <a href="https://www.paradedb.com/docs/start/introduction">Docs</a> &bull;
   <a href="https://paradedb.com/slack">Community</a> &bull;
   <a href="https://paradedb.com/blog/">Blog</a> &bull;
-  <a href="https://paradedb.com/docs/changelog/">Changelog</a>
+  <a href="https://www.paradedb.com/docs/project/changelog">Changelog</a>
 </h3>
 
 ---
