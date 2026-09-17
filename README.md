@@ -117,12 +117,11 @@ You can add additional Postgres environment variables (e.g. `POSTGRES_INITDB_ARG
 
 [ParadeDB](https://paradedb.com) makes text and vector search, filters, facets, and joins fast in Postgres with the `pg_search` extension. Your application data and your search engine live in one database, with no second system to deploy and nothing to sync.
 
-- **BM25 full-text search** with multilingual tokenization, typo tolerance, and highlighting
-- **Vector search** for similarity search over embeddings
-- **Hybrid search** combining BM25 and vector similarity
-- **Filters and facets** to narrow results with structured filters and faceted navigation
-- **Aggregations and joins** to summarize search results and combine them with related application data using SQL
-- **Zero ETL** — use as your primary Postgres directly or replicate from managed databases (RDS, Supabase, Neon, etc.)
+- BM25 full-text search with multilingual tokenization, typo tolerance, and highlighting
+- Vector search for similarity search over embeddings
+- Hybrid search combining BM25 and vector similarity
+- Filters and facets to narrow results
+- Aggregations and joins over your application data
 
 Learn more at [paradedb.com](https://www.paradedb.com/).
 
