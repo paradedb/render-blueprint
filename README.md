@@ -10,16 +10,16 @@
 </h1>
 
 <p align="center">
-  <b>Search without a second system.</b><br/>
+  <b>Just use Postgres.</b><br/>
   One Postgres for your application data, full-text search, vector retrieval, and aggregations.
 </p>
 
 <h3 align="center">
   <a href="https://paradedb.com">Website</a> &bull;
-  <a href="https://paradedb.com/docs">Docs</a> &bull;
+  <a href="https://www.paradedb.com/docs/start/introduction">Docs</a> &bull;
   <a href="https://paradedb.com/slack">Community</a> &bull;
   <a href="https://paradedb.com/blog/">Blog</a> &bull;
-  <a href="https://paradedb.com/docs/changelog/">Changelog</a>
+  <a href="https://www.paradedb.com/docs/project/changelog">Changelog</a>
 </h3>
 
 ---
@@ -115,11 +115,13 @@ You can add additional Postgres environment variables (e.g. `POSTGRES_INITDB_ARG
 
 ## What is ParadeDB?
 
-[ParadeDB](https://paradedb.com) adds Elastic-quality full-text search, vector retrieval, and aggregations to Postgres with the `pg_search` extension. Your application data and your search engine live in one database, with no second system to deploy and nothing to sync.
+[ParadeDB](https://paradedb.com) makes text and vector search, filters, facets, and joins fast in Postgres with the `pg_search` extension. Your application data and your search engine live in one database, with no second system to deploy and nothing to sync.
 
-- **BM25 full-text search** with 12+ tokenizers across 20+ languages
+- **BM25 full-text search** with multilingual tokenization, typo tolerance, and highlighting
+- **Vector search** for similarity search over embeddings
 - **Hybrid search** combining BM25 and vector similarity
-- **Faceted search and boolean queries** for filtering and complex search logic
+- **Filters and facets** to narrow results with structured filters and faceted navigation
+- **Aggregations and joins** to summarize search results and combine them with related application data using SQL
 - **Zero ETL** — use as your primary Postgres directly or replicate from managed databases (RDS, Supabase, Neon, etc.)
 
 Learn more at [paradedb.com](https://www.paradedb.com/).
